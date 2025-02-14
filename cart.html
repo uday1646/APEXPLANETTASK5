@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+          integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <nav class="navbar">
+        <a href="home.html">HOME</a>
+        <a href="products.html">PRODUCTS</a>
+        <a href="cart.html" id="cart">
+            <i class="fa-solid fa-cart-shopping">
+                <div class="cart_count">
+                    <h1 class="cart_count_val">0</h1>
+                </div>
+            </i>
+        </a>
+    </nav>
+
+    <div class="cart_container">
+        <h1 class="cart_title">Your Cart is Empty</h1>
+        <img class="empty_cart" src="emptycart.png" alt="emptycart">
+    </div>
+    <h1 class="cart_total">
+        Sub Total: <span class="cart_tot_val">$0.00</span>
+    </h1>
+ 
+    <script src="script.js">
+    </script>
+</body>
+</html>     
